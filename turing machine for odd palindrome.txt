@@ -1,0 +1,138 @@
+Automaton Simulator, v1.0
+turing {
+	alphabet {abcd*_}
+	state {
+		coord {500 238}
+	}
+	state {
+		coord {794 238}
+	}
+	state {
+		coord {1099 230}
+	}
+	state {
+		coord {486 587}
+	}
+	state {
+		coord {795 599}
+	}
+	state {
+		coord {1099 584}
+	}
+	state {
+		initial {yes}
+		coord {191 391}
+	}
+	state {
+		final {yes}
+		coord {1208 416}
+	}
+	edge 0 1 {
+		transits {_}
+		offset {0.5235987755982988}
+		direction {L}
+		output {_}
+	}
+	edge 1 2 {
+		transits {a}
+		offset {0.5235987755982988}
+		direction {L}
+		output {_}
+	}
+	edge 3 4 {
+		transits {_}
+		offset {0.5235987755982988}
+		direction {L}
+		output {_}
+	}
+	edge 6 0 {
+		transits {a}
+		offset {0.08742597824441123}
+		direction {R}
+		output {c}
+	}
+	edge 6 3 {
+		transits {b}
+		offset {-0.08379616598447637}
+		direction {R}
+		output {c}
+	}
+	edge 4 5 {
+		transits {b}
+		offset {0.5235987755982988}
+		direction {L}
+		output {_}
+	}
+	edge 2 6 {
+		transits {c}
+		offset {6.416470478021484}
+		direction {R}
+		output {c}
+	}
+	edge 5 6 {
+		transits {c}
+		offset {-6.491641493166024}
+		direction {R}
+		output {c}
+	}
+	edge 0 0 {
+		transits {a}
+		offset {2.356194490192345}
+		direction {R}
+		output {a}
+	}
+	edge 0 0 {
+		transits {b}
+		offset {-1.8510959831333478}
+		direction {R}
+		output {b}
+	}
+	edge 2 2 {
+		transits {a}
+		offset {1.4616428638860188}
+		direction {L}
+		output {a}
+	}
+	edge 2 2 {
+		transits {b}
+		offset {-0.44053034061651314}
+		direction {L}
+		output {b}
+	}
+	edge 3 3 {
+		transits {a}
+		offset {-2.638193269193139}
+		direction {R}
+		output {a}
+	}
+	edge 3 3 {
+		transits {b}
+		offset {-0.924980407321327}
+		direction {R}
+		output {b}
+	}
+	edge 5 5 {
+		transits {b}
+		offset {-1.0821539241751703}
+		direction {L}
+		output {b}
+	}
+	edge 5 5 {
+		transits {a}
+		offset {1.1938870564700756}
+		direction {L}
+		output {a}
+	}
+	edge 1 7 {
+		transits {c}
+		offset {-0.025539948335683516}
+		direction {R}
+		output {c}
+	}
+	edge 4 7 {
+		transits {c}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+}
